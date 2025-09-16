@@ -54,11 +54,6 @@ You'll be prompted to choose a mode:
 99) EXIT
 Select as per your needs
 
-📁 File Structure
-1 tool.py           # Main script
-2 Links.txt         # List of platforms to check usernames
-3 README.md         # This file
-
 Ensure Links.txt exists in the same directory as the script.
 You can expand Links.txt with more platforms using the {} placeholder for usernames.
 This tool simulates password reset endpoints and public user checks — use responsibly.
@@ -81,4 +76,5 @@ Whoever edits this or sells this file — f**k you.
 
 🔗 Want to Support or Collaborate?
 Reach out via Telegram: @twistens
+
 
