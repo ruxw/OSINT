@@ -55,10 +55,9 @@ You'll be prompted to choose a mode:
 Select as per your needs
 
 📁 File Structure
-├── tool.py           # Main script
-├── Links.txt         # List of platforms to check usernames
-├── README.md         # This file
-📝 Notes
+1 tool.py           # Main script
+2 Links.txt         # List of platforms to check usernames
+3 README.md         # This file
 
 Ensure Links.txt exists in the same directory as the script.
 You can expand Links.txt with more platforms using the {} placeholder for usernames.
@@ -82,3 +81,4 @@ Whoever edits this or sells this file — f**k you.
 
 🔗 Want to Support or Collaborate?
 Reach out via Telegram: @twistens
+
