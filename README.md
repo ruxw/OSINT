@@ -1,81 +1,84 @@
-🕵️ OSINT Tool by Twistens (@Twistens)
+# OSINT Tool by Twistens (@Twistens)
 
-This is an Open Source Intelligence (OSINT) tool designed to gather information about an email, phone number, or username. It checks whether the provided input is linked to popular websites and services, retrieves metadata such as phone number carrier and location, and performs username lookups across multiple platforms.
+An Open Source Intelligence (OSINT) tool for gathering information on **emails**, **phone numbers**, and **usernames**.  
+This tool is designed to help investigators, cybersecurity professionals, and curious users check whether an identity is linked across various platforms and services.
 
-🚀 Features
+---
 
-✅ Email Lookups:
+🔍 Features
 
-Checks if an email is registered on major websites like Twitter, Instagram, TikTok, Snapchat, Vimeo, SoundCloud, ACAPS, DarkWebID, NewsAPI, and more.
+- **Email Scanner**  
+  Checks if a provided email is registered or associated with multiple popular platforms, including:
+  - Twitter
+  - Instagram
+  - Snapchat
+  - TikTok
+  - SoundCloud
+  - Vimeo
+  - Noon
+  - ACAPS
+  - NewsAPI
+  - DarkWebID
 
-📱 Phone Number Info:
+- **Phone Number Lookup**  
+  Retrieves detailed phone number information using carrier databases and public sources (region, number type, etc.).
 
-Retrieves country, ZIP code, carrier, and possible name data.
+- **Username Enumeration**  
+  Scans a given username across multiple platforms defined in `Links.txt`, such as:
+  - Social media
+  - Developer platforms
+  - Forums and more
 
-🔍 Username Recon:
+---
 
-Scans all URLs provided in Links.txt to find if the username exists on those platforms.
+## ⚙️ Requirements
 
-📦 Requirements
+- Python 3.x
+- Modules:
+  - `requests`
+  - `threading`
+  - `phonenumbers`
+  - `webbrowser`
 
-Python 3.x
-Install the dependencies with:
+Install requirements (if needed):
 
-pip install requests phonenumbers
+🚀 How to Use
 
-🛠️ How to Use
+Run "python3 tool.py" in the terminal
 
-Clone the Repository:
+You'll be prompted to choose a mode:
 
-git clone https://github.com/Twistens/osint-tool.git
-cd osint-tool
-
-
-Prepare Links File (for username scanning):
-
-Create a file named Links.txt
-
-Add URLs using {} as a placeholder for the username.
-
-https://github.com/{}
-https://twitter.com/{}
-https://instagram.com/{}
-https://t.me/{}
-
-
-Run the Script:
-
-python osint.py
-
-
-Select a Mode:
-
-1 → Search for Email
-
-2 → Search for Phone Number
-
-3 → Search by Username
-
-99 → Exit
-
-🧪 Example Inputs
-[+] Enter Email : someone@example.com
-[+] Enter Phone Number: 974 55512345
-[?] Enter Username : twistens
+1) Search for email on websites
+2) Find phone number information
+3) Search for people by their username
+99) EXIT
+Select as per your needs
 
 📁 File Structure
-osint-tool/
-│
-├── osint.py         # Main script
-├── Links.txt        # List of platform URLs for username checks
-├── README.md        # This file
+├── tool.py           # Main script
+├── Links.txt         # List of platforms to check usernames
+├── README.md         # This file
+📝 Notes
 
-📜 License
+Ensure Links.txt exists in the same directory as the script.
+You can expand Links.txt with more platforms using the {} placeholder for usernames.
+This tool simulates password reset endpoints and public user checks — use responsibly.
 
-This project is licensed under the GNU General Public License v3.0. See LICENSE file for details.
+⚠️ Disclaimer
+This tool is for educational and ethical use only.
+Do not use it to harass, stalk, or harm others.
+Misuse of this tool is strictly your responsibility.
 
-⚠️ Legal Disclaimer
+❤️ Credit
+Made by Twistens
+Telegram: @twistens
 
-This tool is intended only for educational and lawful use. Using this software to collect information about individuals without consent may violate privacy laws in your jurisdiction. Use responsibly and at your own risk.
+✋ Edit Warning
+❌ If you're selling this or editing to remove credit, you suck.
 
-Would you like me to save this as a downloadable README.md file for you?
+This tool is created by VOX/RUX.  
+Whoever edits this or sells this file — f**k you.
+(Message left as-is per creator’s request.)
+
+🔗 Want to Support or Collaborate?
+Reach out via Telegram: @twistens
