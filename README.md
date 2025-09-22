@@ -73,8 +73,6 @@ Misuse of this tool is strictly your responsibility.
 Made by Twistens
 Telegram: @twistens | Link : t.me/Twistens
 
----
-
 ✋ Edit Warning
 ❌ If you're selling this or editing to remove credit, you suck.
 
@@ -86,5 +84,6 @@ Whoever edits this or sells this file — f**k you.
 
 🔗 Want to Support or Collaborate?
 Reach out via Telegram: @twistens
+
 
 
