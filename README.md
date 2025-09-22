@@ -42,7 +42,9 @@ This tool is designed to help investigators, cybersecurity professionals, and cu
 
 Install requirements (if needed):
 
-🚀 How to Use
+---
+
+## 🚀 How to Use
 
 Run "python3 tool.py" in the terminal
 
@@ -54,21 +56,29 @@ You'll be prompted to choose a mode:
 99) EXIT
 Select as per your needs
 
-Ensure Links.txt exists in the same directory as the script.
+## Ensure Links.txt exists in the same directory as the script.
 You can expand Links.txt with more platforms using the {} placeholder for usernames.
 This tool simulates password reset endpoints and public user checks — use responsibly.
 
-⚠️ Disclaimer
+---
+
+## ⚠️ Disclaimer
 This tool is for educational and ethical use only.
 Do not use it to harass, stalk, or harm others.
 Misuse of this tool is strictly your responsibility.
 
-❤️ Credit
+---
+
+## ❤️ Credit
 Made by Twistens
-Telegram: @twistens
+Telegram: @twistens | Link : t.me/Twistens
+
+---
 
 ✋ Edit Warning
 ❌ If you're selling this or editing to remove credit, you suck.
+
+---
 
 This tool is created by VOX/RUX.  
 Whoever edits this or sells this file — f**k you.
