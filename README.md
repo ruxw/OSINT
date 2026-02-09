@@ -69,18 +69,10 @@ Misuse of this tool is strictly your responsibility.
 
 ---
 
-## ❤️ Credit
-Made by Twistens
-Telegram: @twistens | Link : t.me/Twistens
-
 ✋ Edit Warning
 ❌ If you're selling this or editing to remove credit, you suck.
 
 ---
 
-This tool is created by VOX/RUX.  
+This tool is created by solely be me 
 Whoever edits this or sells this file — f**k you.
-
-
-
-
