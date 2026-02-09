@@ -80,10 +80,7 @@ Telegram: @twistens | Link : t.me/Twistens
 
 This tool is created by VOX/RUX.  
 Whoever edits this or sells this file — f**k you.
-(Message left as-is per creator’s request.)
 
-🔗 Want to Support or Collaborate?
-Reach out via Telegram: @twistens
 
 
 
